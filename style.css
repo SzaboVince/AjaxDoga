@@ -1,0 +1,25 @@
+@keyframes animacio {
+    0%{background: red}
+    50%{background: white}
+    100%{background:green}
+}
+
+thead{
+    background: red;
+    animation-name:animacio;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.fa-remove{
+    color: red;
+    cursor:pointer;
+}
+
+tbody{
+    background:url("A nagy dolgok megkövetelik, hogy az ember vagy hallgasson róluk, vagy fennkölt hangnemben szóljon róluk..jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
